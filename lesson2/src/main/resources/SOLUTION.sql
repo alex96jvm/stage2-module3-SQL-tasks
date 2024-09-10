@@ -12,16 +12,16 @@ insert into student (name, birthday, groupnumber) values ('Bob', '1991-11-10', 4
 insert into student (name, birthday, groupnumber) values ('Max', '1990-08-26', 5);
 insert into student (name, birthday, groupnumber) values ('Tom', '1990-03-20', 5);
 
-insert into subject (name, grade) values ('art', 1);
-insert into subject (name, grade) values ('music', 1);
-insert into subject (name, grade) values ('geography', 2);
-insert into subject (name, grade) values ('history', 2);
+insert into subject (name, grade) values ('Art', 1);
+insert into subject (name, grade) values ('Music', 1);
+insert into subject (name, grade) values ('Geography', 2);
+insert into subject (name, grade) values ('History', 2);
 insert into subject (name, grade) values ('PE', 3);
-insert into subject (name, grade) values ('math', 3);
-insert into subject (name, grade) values ('science', 4);
+insert into subject (name, grade) values ('Math', 3);
+insert into subject (name, grade) values ('Science', 4);
 insert into subject (name, grade) values ('IT', 4);
-insert into subject (name, grade) values ('english', 5);
-insert into subject (name, grade) values ('literature', 5);
+insert into subject (name, grade) values ('English', 5);
+insert into subject (name, grade) values ('Literature', 5);
 
 insert into paymenttype (name) values ('DAILY');
 insert into paymenttype (name) values ('WEEKLY');
