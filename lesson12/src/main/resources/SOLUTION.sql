@@ -1,4 +1,4 @@
-DELETE FROM student WHERE id IN (SELECT student_id FROM mark GROUP BY student_id HAVING AVG(mark) >= 4 LIMIT 959);
+DELETE FROM student WHERE id IN (SELECT student_id FROM mark GROUP BY student_id HAVING AVG(mark) >= 4);
 
 DELETE FROM student WHERE id IN (SELECT student_id FROM mark WHERE mark < 4);
 
